@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("cafeBGR копия.jpg");
+    background-size: cover; /* Розтягнути фон на весь екран */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+img {
+    width: 80px; /* Збільшення логотипу */
+}
+
+.header {
+    background-image: url("cafeBGR копия.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0; /* Додано відступи зверху і знизу */
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+.nav a:hover {
+    color: #666; /* Колір при наведенні курсора */
+}
+.phone {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; /* Додано відстань між номером телефону та іконкою */
+}
+
+.phone .number {
+    color: white;
+    margin-right: 5px;
+}
+
+.cart img,
+.phone img {
+    width: 25px; /* Зменшення іконок корзини та телефону */
+    margin: 0 5px; /* Додано відступ між іконками */
+}
+
+.phone .number {
+    color: white; /* Зміна кольору номеру телефону на білий */
+    margin-left: 5px; /* Додано відступ між іконкою та номером */
+}
+
+.phone .phone-img {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.order-button {
+    background: #666; /* Колір фону кнопки */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s; /* Додано анімацію при зміні кольору фону */
+}
+
+.order-button:hover {
+    background: #444; /* Колір фону при наведенні */
+}
+.cart img {
+    width: 25px; /* Зменшення іконки корзини */
+    margin: 0 10px;
+}
